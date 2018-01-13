@@ -8,8 +8,10 @@ A new Red compiler rewritten in Rust
 
 # How to use
 
-* download llvm from http://releases.llvm.org/download.html#5.0.1, and install it
+## linux environment
 
-* add the installed dirctory to `llvm-config` environment path
+* install llvm-5.0
 
-* 
+* sudo ln -s /usr/bin/llvm-config-50 /usr/bin/llvm-config
+
+* cargo run
